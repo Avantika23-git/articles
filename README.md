@@ -1,3 +1,3 @@
-Created a website with supabase!!
-wanted to try one with uk storing data so here it is
+I just created my first website using Supabase! 🎉
+Tried building something that actually stores data online… and it worked!
 https://avantika23-git.github.io/articles/
