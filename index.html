@@ -1,0 +1,37 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width", initial-scale="1">
+        <link rel="stylesheet" href="style.css">
+
+        <title>ARTICLES</title>
+    </head>
+    <body>
+        <header>
+        <h1>ARTICLES</h1>
+        <p>Read . Write . Share</p>
+        </header>
+
+        <div class="search">
+            <input id="searchInput" type="text" placeholder="Search by name or category">
+            <button onclick="searchArticles()">Search</button>
+        </div>
+
+        <h2 class="sectiontitle">All Articles</h2>
+        <div id="articleslist"></div>
+
+        <div class="formcontainer">
+            <h2>Publish an Article</h2>
+            <form id="articleform">
+            <input type="text" id="title" placeholder="Article Title" required>
+            <input type="text" id="author" placeholder="Your Name" required>
+            <input type="text" id="category" placeholder="Category" required>
+            <textarea id="content" placeholder="Write your article here…" required></textarea>
+            <button type="submit">Publish</button>
+            </form>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>

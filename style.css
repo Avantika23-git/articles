@@ -1,0 +1,121 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f8f4ff;
+    padding: 5px;
+    margin: 0px;
+}
+header{
+    background-color: #d6d4da;
+    text-align: center;
+    padding: 20px;
+    color: #6d3e6f;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+header h1{
+    font-size: xx-large;
+    margin: 0;
+}
+.search {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+     gap: 10px;
+}
+.search input{
+    width: 60%;
+    height: 20px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: 1px solid #d1c4e9;
+}
+.search button{
+    padding: 8px 10px;
+    background: #c4b5fd;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+}
+.sectiontitle{
+    text-align: center;
+    color: #6a4fbf;
+    margin-top: 25px;
+}
+
+#articleslist {
+    width: 90%;
+    max-width: 800px;
+    margin: 15px auto;
+}
+
+.article-card {
+    background: #ffffff;
+    border: 1px solid #dcd2ff;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+}
+
+.article-card h3 {
+    margin: 0;
+    color: #5e3fa8;
+}
+
+.article-card p {
+    font-size: 0.95rem;
+    line-height: 1.4;
+    color: #4b3d68;
+}
+
+/* mobile responsive */
+@media (max-width: 600px) {
+    .search-box input {
+        width: 100%;
+    }
+
+    .search-box {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+.formcontainer{
+    width: 90%;
+    max-width: 600px;
+    margin: 20px auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    border: 1px solid #e7ddff;
+}
+.formcontainer h2{
+    text-align: center;
+    color: #5d3e8d;
+}
+form input,
+form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: 1px solid #cfc3ff;
+    background: #faf8ff;
+}
+
+form textarea {
+    height: 120px;
+}
+
+form button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    background: #bda4ff;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
